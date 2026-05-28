@@ -1,0 +1,49 @@
+.geolocation {
+	position: relative;
+	padding: 100px 0 50px;
+}
+
+.geolocation::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 30%;
+	background-image: url('../img/hand.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	top: -30px;
+	z-index: 100;
+}
+
+.geolocation__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Cormorant Garamond', serif;
+	color: rgb(70, 32, 7);
+}
+
+.geolocation__title {
+	font-size: 30px;
+	line-height: 29.4px;
+}
+
+.geolocation__img {}
+
+.geolocation__text {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.geolocation__link {
+	width: 160px;
+	padding: 10px 22px;
+	font-family: "Cormorant Garamond", serif;
+	font-size: 18px;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	background-color: rgb(212, 175, 122);
+	background-image: linear-gradient(133deg, rgb(212, 175, 122) 0%, rgba(255, 255, 255, 0.4) 50%, rgb(212, 175, 122) 100%);
+	border-radius: 30px;
+	text-align: center;
+}

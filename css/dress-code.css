@@ -1,0 +1,63 @@
+.dress-code {
+	position: relative;
+	margin-top: -40px;
+	padding: 100px 0;
+	background-image: url(../img/Background-dark.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Cormorant Garamond", serif;
+	z-index: 10;
+	color: var(--white);
+}
+
+.dress-code::after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	background-image: url(../img/Background-dark.png);
+	display: block;
+	height: 16%;
+	bottom: -50px;
+	background-position: bottom;
+	background-size: cover;
+}
+
+.dress-code__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 14px;
+	text-align: center;
+}
+
+.dress-code__title {
+	color: var(--white);
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.dress-code__text {
+	font-size: 18px;
+	color: var(--white);
+}
+
+.dree-code__img {
+	width: 258px;
+	height: 118px;
+	object-fit: contain;
+}
+
+.drees-code__text {}
+
+.drees-code__box {
+	display: flex;
+	justify-content: center;
+	gap: 18px;
+	font-size: 18px;
+}
+
+.drees-code__box-time {}
+
+.drees-code__box-time__text {}

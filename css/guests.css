@@ -1,0 +1,43 @@
+.guests {
+	position: relative;
+	margin-top: -40px;
+	padding: 100px 0 50px;
+	background-image: url(../img/Background.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Cormorant Garamond", serif;
+	z-index: 10;
+}
+
+.quests__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.guests__title {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.guests__title:last-child {
+	margin-bottom: 0;
+}
+
+.guests__text {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.guests__subtitle {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.guests__img {
+	margin-bottom: 20px;
+}
